@@ -1,3 +1,14 @@
+## Platform Assessment: Atlassian Rovo
+
+| | |
+|---|---|
+| **Platform** | Atlassian Rovo
+| **Developer** | Atlassian
+| **Prepared For** | Reverend Dr. Vernon Masters, Beaumont Church of Healing (501(c)(3)) |
+| **Prepared By** | Raquel Blue, AI Governance Lead |
+| **Date** | 11 June 2026 |
+| **Related Document(s)** | AI Risk Assessment: Atlassian Rovo |
+
 ## Institutional Context
 
 The Beaumont Church of Healing (BCoH) operates as a foundational pillars of our local and national faith-based community. Managing an infrastructure that accommodates over 2,000 weekly 
