@@ -76,13 +76,13 @@ The diagrammatic table below outlines standard data processing actions within ou
 
 ## Organizational Benefits
 
-Administrative Time Recovery: Staff saves hours spent digging through separate email threads, Google Drives, and Jira backlogs to find event logistics or sponsor 
+**Administrative Time Recovery:** Staff saves hours spent digging through separate email threads, Google Drives, and Jira backlogs to find event logistics or sponsor 
 details.
 
-Smarter, Context-Driven Decision Making: Executive leadership can ask Rovo Chat for comprehensive overviews of operational bottlenecks across both BCoH and its 
+**Smarter, Context-Driven Decision Making:** Executive leadership can ask Rovo Chat for comprehensive overviews of operational bottlenecks across both BCoH and its 
 sister church subsidiary instantly.
 
-Elimination of App-Switching Fatigue: Staff can draft updates, close out service requests, and review documentation across Google, Microsoft, and Atlassian through 
+**Elimination of App-Switching Fatigue:** Staff can draft updates, close out service requests, and review documentation across Google, Microsoft, and Atlassian through 
 a single centralized chat window.
 
 ## Risks & Governance Considerations
