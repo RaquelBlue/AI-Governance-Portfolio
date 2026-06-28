@@ -127,3 +127,84 @@ automated task creations, budget alterations, or structural project deletions wi
 * **Reputational & Funding Erosion:** Leaked pastoral files or minor data spillage causing extreme public scrutiny,
 leading to the abrupt loss of local/national corporate sponsorships, drop-offs in congregation giving, and
 structural damage to BCoH trust vectors.
+
+## Required Controls
+
+Approval of Atlassian Rovo is strictly contingent upon the implementation of the following baseline
+controls:
+
+| Control ID | Control Name | Enforcement |
+|------------|--------------|-------------|
+| ROVO-005 | Access Enforcement |   |
+
+
+## Human Oversight Requirements
+
+To prevent algorithmic errors or automated workflow destruction, the following human oversight constraints are
+mandatory:
+
+* **The Human-in-the-Loop (HITL) Validation Gate:** Rovo agents are programmatically restricted from finalizing
+any document alteration, project state shift, ticket deletion, or budget adjustment. A Mandatory Jira Service
+Management Workflow Transition Validator requires explicit manual human verification and approval before any
+state change is executed.
+
+* **Output & Transcript Review:** All automated text outputs, meeting summaries, and program translations
+compiled by Rovo Chat or Agents must be flagged with a prominent metadata tag reading *“Draft Pending
+Human Review”* and must be verified by a department manager before distribution.
+
+* **Non-Automated Decisions:** Decisions involving counseling alignment, volunteer scheduling for minors,
+financial allocation shifts for fundraisers, and sponsorship tier adjustments shall never be fully automated under
+any condition.
+
+## Post-Deployment Monitoring Requirements
+
+Continuous technical and behavioral monitoring must be maintained following initial platform activation:
+
+* **Real-Time SIEM Integration:** All user IDs, timestamps, conversational prompt texts, and touched metadata files
+must be captured by the Atlassian Access Guardrails Logging Engine and piped directly via API into a
+centralized Splunk SIEM for immediate anomaly analysis.
+
+* **Automated Weekly Log Audits:** The Compliance and Audit Team must execute automated parsing scripts
+every Friday evening to scan conversational records for offensive terminology, database query spikes, or
+atypical data manipulation attempts.
+
+* **Bi-Weekly LMS Training Sync:** Automated compliance sweeps must cross-reference active user credentials
+with the church Learning Management System (LMS) bi-weekly. User access to Rovo must be suspended
+automatically if an employee's annual AI Acceptable Use training certification lapses.
+
+## Approval Determination
+
+### **RECOMMENDATION: APPROVE WITH CONDITIONS**
+
+The final determination for the deployment of Atlassian Rovo within the Beaumont Church of Healing is to
+**Approve with Conditions**. This recommendation is driven directly by balancing Rovo's significant operational
+benefits against the sensitive nature of BCoH's counseling, youth, and financial datasets. 
+
+Rovo delivers administrative relief, projecting immense recovery of manual hours spent tracking event metrics, 
+managing facilities requests via JSM Assist across our main site and sister church, and organizing sponsorship 
+deliverables. However, because the unconstrained platform natively aggregates data cross-environmentally,
+launching the platform without strict boundaries poses a high probability of exposing protected minor 
+information and breaking pastoral confidentiality boundaries regarding bereavement and mental health 
+filings. This exposure would cause immediate trust erosion, potential loss of 501(c)(3) tax status, 
+and the cancellation of vital corporate partnerships.
+
+Deployment is therefore authorized **only** upon the verification of the following baseline conditions prior to
+workspace activation:
+
+* **Data Blacklisting Validation:** Verification that all folders containing confessional logs, counseling notes,
+bereavement documents, and minor registration forms are programmatically blacklisted via Atlassian API
+Source Exclusions (`ROVO-014`).
+
+* **Identity & Endpoint Enforcement:** Implementation of mandatory phishing-resistant network MFA
+(`ROVO-012`) and MDM-enforced biometrics for mobile terminals (`ROVO-013`).
+
+* **Destructive Command Neutralization:** Hardcoding of global engine directives to reject conversational bulk
+delete or modification requests (`ROVO-032`).
+
+* **Logical Structural Isolation:** Technical verification that the database and folder architecture of the commercial
+funeral home subsidiary are isolated in an independent schema (`ROVO-022`) to prevent regulatory boundary
+spillage.
+
+* **Human Sign-off Enforcement:** Activation of the Jira Service Management Workflow Transition Validator to
+guarantee that no AI agent can modify task states or budget parameters without an active human-in-the-loop
+sign-off (`ROVO-033`).
