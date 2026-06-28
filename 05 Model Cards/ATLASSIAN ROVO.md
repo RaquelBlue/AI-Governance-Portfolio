@@ -65,3 +65,65 @@ drafting, scriptural interpretation, or confessional guidance.
 * **No General External Research:** Standard users are blocked from employing the engine for general academic
 research, step-by-step external technical troubleshooting instructions, or any operational task detached from
 BCoH's internal documents.
+
+## Data Considerations & Privacy Guidance
+
+Beaumont Church of Healing processes a high volume of spiritually, legally, and financially sensitive records. 
+Managing information flow requires rigorous data classification and strict ingestion boundaries.
+
+### Permitted Data
+
+Authorized data elements available for Rovo indexing include general church operations documentation, marketing
+calendars, facilities maintenance logs, educational workshop agendas, and aggregated corporate sponsorship
+status metrics.
+
+### Restricted & Prohibited Data
+
+Highly sensitive files are strictly prohibited from being ingested, parsed, or summarized by the AI engine. This
+includes:
+
+* Personally Identifiable Information (PII) and registration rosters of children (ages 5–18) participating in youth
+ministries.
+
+* All 1-on-1 and group support records, including mental health guidance notes, bereavement coaching histories,
+and personal growth journal filings.
+
+* Spiritual confessional logs, pastoral consultation notes, and individual financial donor contribution ledgers.
+
+### Governance & Retention Requirements
+
+Regulated data cannot be handled by standard default parameters. Strict data classification protocols must be
+enforced at the API layer. Pursuant to 501(c)(3) legal constraints and internal pastoral confidentiality mandates, a
+mandatory Internal Privacy Impact Assessment (PIA) must clear every file repository prior to application
+connector pairing. Furthermore, to satisfy tax-exempt isolation requirements, the data streams of the commercial
+funeral home subsidiary must reside in distinct, logically isolated schemas, fully blocked from general church
+search results. All AI interaction summaries must adhere to church data retention policies and must be dynamically
+watermarked to protect downstream processing errors.
+
+## Key Organizational Risks
+
+The comprehensive risk assessment identified several critical vulnerabilities introduced by the unconstrained
+deployment of Atlassian Rovo:
+
+* **Security Privileged Access Escalation:** Gaps in user directory configurations could allow standard internal
+accounts to modify base LLM permissions or independently adjust agent knowledge access scopes, expanding
+the technical attack surface.
+
+* **Pastoral & Minor PII Privacy Exposure:** Automated index harvesting making it possible for standard users to
+query and accidentally view confidential counseling notes, bereavement logs, or minor registration details (ages
+5–18).
+
+* **Regulatory Entity Cross-Contamination:** AI configurations bypassing required technical separation
+boundaries between the 501(c)(3) church operations and its subsidiary commercial funeral services, risking
+legal piercing of the corporate veil.
+
+* **Data Protection Deletion Loops:** Permitted conversational natural language actions occurring without strict
+identity challenges, allowing a user or custom agent to initiate bulk delete or modify actions across entirely
+separate departments.
+
+* **Algorithmic Oversight Failure:** AI hallucinations or mistranslated meeting transcripts leading to erroneous
+automated task creations, budget alterations, or structural project deletions without manual validation.
+
+* **Reputational & Funding Erosion:** Leaked pastoral files or minor data spillage causing extreme public scrutiny,
+leading to the abrupt loss of local/national corporate sponsorships, drop-offs in congregation giving, and
+structural damage to BCoH trust vectors.
