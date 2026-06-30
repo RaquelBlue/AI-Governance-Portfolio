@@ -4,7 +4,7 @@
 | **Developer** | Atlassian Corporation 
 | **Framework** | NIST 800-53 Rev 5 |
 | **Business Owner** | Reverend Dr. Vernon Masters |
-| **Technical Owner** | IT Security Director |
+| **Technical Owner** | Deacon Maurice T. Walker |
 | **Prepared For** | Reverend Dr. Vernon Masters, Beaumont Church of Healing (501(c)(3)) |
 | **Prepared By** | Raquel Blue, AI Governance Lead |
 | **Date** | 28 June 2026 |
@@ -135,23 +135,14 @@ controls:
 
 | Control ID | Control Name | Enforcement |
 |------------|--------------|-------------|
-| ROVO-005 | Access Enforcement | Enforce data-level Role-Based Access Control (RBAC) to ensure that cross-departmental
-paths cannot be indexed or parsed by unauthorized personnel at runtime. |
-| ROVO-007 | Least Privilege | Enforce Atlassian organization-level restrictions to block standard users from modifying
-base LLM permissions or agent knowledge access parameters. |
-| ROVO-010 | Session Termination | Configure portal parameters to automatically terminate idle user sessions and open 
-workspaces upon reaching exactly 30 minutes of total user inactivity. |
-| ROVO-013 | MFA for Network Access | Require Mobile Device Management (MDM) enrollment with mandatory biometric 
-verification (FaceID/TouchID) for all mobile Atlassian app connections. |
-| ROVO-014 | Information Flow Enforcement | Apply Atlassian Connected Application API Source Exclusions to programmatically
-block counseling, confessional, bereavement, and minor files from index engines. |
-| ROVO-022 | Segregation of Information Flows | Establish explicit database schema multi-tenancy rules and logical API
-isolation boundaries to completely separate commercial funeral repositories from church workspaces. |
-| ROVO-032 |Stop Bulk Action | Program global engine directives to reject conversational 
-commands attempting "Bulk Delete" or "Bulk Modify" executions, locking these functions behind administrative tokens. |
-| ROVO-038 | Privacy Notice | Publish a public, faith-aligned AI Privacy Commitment formally declaring the systematic 
-isolation of spiritual and minor data repositories from commercial automation pools. | 
-
+| ROVO-005 | Access Enforcement | Enforce data-level Role-Based Access Control (RBAC) to ensure that cross-departmental paths cannot be indexed or parsed by unauthorized personnel at runtime. |
+| ROVO-007 | Least Privilege | Enforce Atlassian organization-level restrictions to block standard users from modifying base LLM permissions or agent knowledge access parameters. |
+| ROVO-010 | Session Termination | Configure portal parameters to automatically terminate idle user sessions and open workspaces upon reaching exactly 30 minutes of total user inactivity. |
+| ROVO-013 | MFA for Network Access | Require Mobile Device Management (MDM) enrollment with mandatory biometric verification (FaceID/TouchID) for all mobile Atlassian app connections. |
+| ROVO-014 | Information Flow Enforcement | Apply Atlassian Connected Application API Source Exclusions to programmatically block counseling, confessional, bereavement, and minor files from index engines. |
+| ROVO-022 | Segregation of Information Flows | Establish explicit database schema multi-tenancy rules and logical API isolation boundaries to completely separate commercial funeral repositories from church workspaces. |
+| ROVO-032 |Stop Bulk Action | Program global engine directives to reject conversational commands attempting "Bulk Delete" or "Bulk Modify" executions, locking these functions behind administrative tokens. |
+| ROVO-038 | Privacy Notice | Publish a public, faith-aligned AI Privacy Commitment formally declaring the systematic isolation of spiritual and minor data repositories from commercial automation pools. | 
 
 ## Human Oversight Requirements
 
